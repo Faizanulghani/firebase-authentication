@@ -8,6 +8,7 @@ const Header = () => {
 
   let getPathName = () => {
     if (pathName === "/login") return "Login";
+    if (pathName === "/dashboard") return "Dashboard";
     return "My App";
   };
   return (
