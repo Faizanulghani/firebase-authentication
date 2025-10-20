@@ -10,7 +10,7 @@ export const SignInButton = () => {
     return (
       <div>
         <h1>LoggedIn: </h1>
-        <h1>{user?.displayname}</h1>
+        <h1>{user?.displayName}</h1>
         <h1>{user?.email}</h1>
         <Link href="/dashboard">
           <button className="underline text-blue-600">Go To Dashboard</button>
